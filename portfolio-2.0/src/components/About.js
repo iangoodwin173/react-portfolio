@@ -1,14 +1,19 @@
 import React from "react";
+import aboutPicture from './assets/images/about-photo.jpg';
 
 
 function About() {
   return (
     <div className="App-header">
-      <h1 className="title-text">Ian Goodwin: Full-Stack Developer</h1>
-  
-      
+      <img className="about-photo" src={aboutPicture} alt="Ian Goodwin"/>
       <p className="tagline-text">
-        Hi, I'm Ian. I'm a Full-Stack Developer that also enjoys gaming and golfing.
+        I am currently an aspiring Full-Stack Developer taking <br></br> 
+        a Coding Bootcamp through George Washington University. <br></br> 
+        I have learned a plethora of development techologies and languages,
+        including <br></br> 
+        HTML, CSS, JavaScript, SQL, NoSQL (i.e. MongoDB), React, Node.js, Express.js, 
+        <br></br> Git/GitHub/Git Bash, PWAs, and more. Please feel free to browse my linked projects, 
+        <br></br> and do not hesitate to contact me through my Contact Page.
       </p>
     </div>
     

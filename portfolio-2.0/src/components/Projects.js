@@ -1,10 +1,12 @@
 import React from 'react';
 import profilePicture from './assets/images/profile.jpg';
 
-function Profile() {
+
+
+function Projects() {
   return (
     <img className="profile-img" src={profilePicture} alt="Ian Goodwin"/>
   );
 }
 
-export default Profile;
+export default Projects;
