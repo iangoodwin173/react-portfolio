@@ -1,11 +1,22 @@
 import React from 'react';
-import profilePicture from './assets/images/profile.jpg';
+import workdayPicture from './assets/images/Workday-Project.jpg';
+import quizPicture from './assets/images/Quiz-Picture.png';
 
 
 
 function Projects() {
   return (
-    <img className="profile-img" src={profilePicture} alt="Ian Goodwin"/>
+    <div className='App-header'>
+      <h2>Take a look at some projects below: </h2>
+      <a href='https://iangoodwin173.github.io/work-day-scheduler/'>
+        <img className='project-images' src={workdayPicture} alt='workday project'></img>
+      </a>
+
+      <a href='https://iangoodwin173.github.io/coding-quiz/'>
+        <img className='project-images' src={quizPicture} alt='quiz project'></img>
+      </a>
+      <p>More projects coming soon</p>
+    </div>
   );
 }
 

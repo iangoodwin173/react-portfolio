@@ -1,18 +1,58 @@
-import React from "react";
+import React, { useState } from 'react';
 
+const ContactForm = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
-function Contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
+
   return (
-    <div className="contact-container">
-      <h1 className="contact-text">Contact Me Here</h1>
-  
-      
-      <p>wtf is happening</p>
-    </div>
-    
-    
-  );
-  
-}
+    <div>
+      <h2 className='contact-text'>Please feel free to contact me using <br></br> this form or by clicking my LinkedIn link below.
+      </h2>
+    <form className='contact-container' onSubmit={handleSubmit}>
+      <label>
+        Name:
+        <input
+          type="text"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          required
+        />
+        <br></br>
+      </label>
 
-export default Contact;
+      <label>
+        Email:
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+        />
+      </label>
+      <br></br>
+
+      <label>
+        Message:
+        <textarea
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          required
+        ></textarea>
+      </label>
+      <br></br>
+
+      <button type="submit">Submit</button>
+    </form>
+    </div>
+  );
+};
+
+export default ContactForm;

@@ -7,13 +7,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  overflow:hidden;
 }
 
 html {
   width: 100vw;
   height: 100vh;
+  /* overflow: hidden; */
 
+}
+
+.project-images {
+  height: 200px;
+  width: 400px;
+}
+
+.resume-download {
+  color: lightpink;
+}
+
+.contact-text {
+  text-align: center;
+  color: lightgray;
+  margin-top: 40px;
 }
 .portfolio-container {
   background-image: url('./components/assets/images/background.jpg');
@@ -22,6 +38,7 @@ html {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 
@@ -44,6 +61,22 @@ html {
   
 }
 
+
+
+.contact-container {
+  
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow: hidden;
+  margin: 1px;
+  
+}
+
 .App-footer {
   /* background-color: #282c34; */
   display: flex;
@@ -51,7 +84,11 @@ html {
   align-items: center;
   justify-content: center;
   min-height: 50vh;
+  color: lightblue;
+}
 
+.footer-link {
+  color: lightblue;
 }
 
 .App-link {
@@ -99,9 +136,27 @@ ul, li {
   margin: 1px;
 }
 
-a {
-  color: red;
+.nav-link {
+  font-weight: bold;
+  color: lightblue;
+}
 
+.nav-link-active {
+  color: purple;
+}
+
+.nav-item-name {
+  font-size: 30px;
+  color: gray;
+  margin-right: 5px;
+  border-style: solid;
+  
+  
+  
+}
+
+h2 {
+  color: white;
 }
 
 .tagline-text {
@@ -109,6 +164,10 @@ a {
   color: white;
 }
 
-
+textarea, input {
+  width: 200px;
+  height: 25px;
+  text-align: left;
+}
 
 
