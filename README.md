@@ -8,4 +8,14 @@ Attached below is a screenshot of the deployed application, along with the links
 
 To install this program on your machine, clone the code into your local repository, run npm install in the root directory, and then run npm start in the root.
 
+## Images
+
+Below is an image of the deployed application:
+
+
+![React-portfolio-deployed](https://github.com/iangoodwin173/react-portfolio/assets/122403641/357ec2f1-4133-4f7b-b521-2f105de711f5)
+
+
+## Footnote
+Big thanks to ChatGPT for assisting with the contact form.
 
