@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.5378f80f.css",
+    "main.js": "/react-portfolio/static/js/main.cda29007.js",
+    "static/js/787.b597a222.chunk.js": "/react-portfolio/static/js/787.b597a222.chunk.js",
+    "static/media/Quiz-Picture.png": "/react-portfolio/static/media/Quiz-Picture.55479d321afb8dd4df79.png",
+    "static/media/about-photo.jpg": "/react-portfolio/static/media/about-photo.36e215d06cd03f38258c.jpg",
+    "static/media/Workday-Project.jpg": "/react-portfolio/static/media/Workday-Project.621b71e479a1f23bcd0c.jpg",
+    "static/media/profile.jpg": "/react-portfolio/static/media/profile.7ee52c4458ad5d1d1a03.jpg",
+    "static/media/background.jpg": "/react-portfolio/static/media/background.224673334aeef23ef3fa.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.5378f80f.css.map": "/react-portfolio/static/css/main.5378f80f.css.map",
+    "main.cda29007.js.map": "/react-portfolio/static/js/main.cda29007.js.map",
+    "787.b597a222.chunk.js.map": "/react-portfolio/static/js/787.b597a222.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5378f80f.css",
+    "static/js/main.cda29007.js"
+  ]
+}
