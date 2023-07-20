@@ -15,6 +15,10 @@ Below is an image of the deployed application:
 
 ![React-portfolio-deployed](https://github.com/iangoodwin173/react-portfolio/assets/122403641/357ec2f1-4133-4f7b-b521-2f105de711f5)
 
+## Deployed Application
+
+You can find the deployed application here: https://iangoodwin173.github.io/react-portfolio/
+
 
 ## Footnote
 Big thanks to ChatGPT for assisting with the contact form.
